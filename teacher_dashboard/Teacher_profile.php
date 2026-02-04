@@ -32,7 +32,7 @@ $about = $loginUserDetails['about_comment'];
                     <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
                         <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-                        <h2><?= $firstName; ?></h2>
+                        <h2><?= $fullName; ?></h2>
                         <h3>Teacher</h3>
                     </div>
                 </div>
@@ -97,8 +97,8 @@ $about = $loginUserDetails['about_comment'];
                                         <div class="col-md-8 col-lg-9">
                                             <img src="assets/img/profile-img.jpg" alt="Profile" id="profileImage">
                                             <div class="pt-2">
-                                                <!-- <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-upload"></i></a> -->
-                                                <!-- <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a> -->
+                                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-upload"></i></a>
+                                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
                                             </div>
                                         </div>
                                     </div>

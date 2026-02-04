@@ -24,29 +24,15 @@ require_once("./includes/sidebar.php");
           <!-- Sales Card -->
           <div class="col-xxl-4 col-md-6">
             <div class="card info-card sales-card">
-
-              <div class="filter">
-                <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                  <li class="dropdown-header text-start">
-                    <h6>Filter</h6>
-                  </li>
-
-                  <li><a class="dropdown-item" href="#">Today</a></li>
-                  <li><a class="dropdown-item" href="#">This Month</a></li>
-                  <li><a class="dropdown-item" href="#">This Year</a></li>
-                </ul>
-              </div>
-
               <div class="card-body">
-                <h5 class="card-title">Exams <span>| Today</span></h5>
+                <h5 class="card-title">Exams</h5>
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                     <i class="bi bi-clipboard"></i>
                   </div>
                   <div class="ps-3">
-                    <h6>145</h6>
+                    <h6>-- total remaining exams--</h6>
                     <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span>
                   </div>
                 </div>
@@ -55,155 +41,71 @@ require_once("./includes/sidebar.php");
             </div>
           </div><!-- End Sales Card -->
 
-          <!-- Revenue Card -->
+          <!-- Results Card -->
           <div class="col-xxl-4 col-md-6">
             <div class="card info-card revenue-card">
-
-              <div class="filter">
-                <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                  <li class="dropdown-header text-start">
-                    <h6>Filter</h6>
-                  </li>
-
-                  <li><a class="dropdown-item" href="#">Today</a></li>
-                  <li><a class="dropdown-item" href="#">This Month</a></li>
-                  <li><a class="dropdown-item" href="#">This Year</a></li>
-                </ul>
-              </div>
-
               <div class="card-body">
-                <h5 class="card-title">Progress <span>| This Month</span></h5>
+                <h5 class="card-title">Total Results</h5>
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                     <i class="bi bi-graph-up-arrow"></i>
                   </div>
                   <div class="ps-3">
-                    <h6>3264</h6>
-                    <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
-
+                    <h6>-- total results --</h6>
                   </div>
                 </div>
               </div>
 
             </div>
-          </div><!-- End Revenue Card -->
+          </div><!-- End Results Card -->
 
-          <!-- Customers Card -->
+          <!-- Students Card -->
           <div class="col-xxl-4 col-xl-12">
 
             <div class="card info-card customers-card">
-
-              <div class="filter">
-                <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                  <li class="dropdown-header text-start">
-                    <h6>Filter</h6>
-                  </li>
-
-                  <li><a class="dropdown-item" href="#">Today</a></li>
-                  <li><a class="dropdown-item" href="#">This Month</a></li>
-                  <li><a class="dropdown-item" href="#">This Year</a></li>
-                </ul>
-              </div>
-
               <div class="card-body">
-                <h5 class="card-title">Students <span>| This Year</span></h5>
+                <h5 class="card-title">Students</h5>
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                     <i class="bi bi-people"></i>
                   </div>
                   <div class="ps-3">
-                    <h6>124848</h6>
-                    <span class="text-danger small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">decrease</span>
-
+                    <h6>--total number of students --</h6>
                   </div>
                 </div>
-
               </div>
             </div>
 
-          </div><!-- End Customers Card -->
+          </div><!-- End Students Card -->
 
-          <!-- Reports -->
-          <div class="col-12">
-            <div class="card">
-
-              <div class="filter">
-                <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                  <li class="dropdown-header text-start">
-                    <h6>Filter</h6>
-                  </li>
-
-                  <li><a class="dropdown-item" href="#">Today</a></li>
-                  <li><a class="dropdown-item" href="#">This Month</a></li>
-                  <li><a class="dropdown-item" href="#">This Year</a></li>
-                </ul>
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">Reports <span>/Today</span></h5>
-
-              </div>
-
-            </div>
-          </div><!-- End Reports -->
         </div>
       </div><!-- End Left side columns -->
 
       <!-- Right side columns -->
       <div class="col-lg-4">
 
-        <!-- Recent Activity -->
+        <!-- Uplcoming Exams -->
         <div class="card">
-          <div class="filter">
-            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-              <li class="dropdown-header text-start">
-                <h6>Filter</h6>
-              </li>
-
-              <li><a class="dropdown-item" href="#">Today</a></li>
-              <li><a class="dropdown-item" href="#">This Month</a></li>
-              <li><a class="dropdown-item" href="#">This Year</a></li>
-            </ul>
-          </div>
-
           <div class="card-body">
-            <h5 class="card-title">Recent Activity <span>| Today</span></h5>
-
+            <h5 class="card-title">Upcoming </h5>
             <div class="activity">
-
               <div class="activity-item d-flex">
-                <div class="activite-label">0 min</div>
+                <div class="activite-label">This Week</div>
                 <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
                 <div class="activity-content">
                   No recent activity <a href="#" class="fw-bold text-dark">.</a>
                 </div>
               </div><!-- End activity item-->
 
-
-
             </div>
 
           </div>
         </div><!-- End Recent Activity -->
-
-        <!-- Budget Report -->
-        <div class="card">
-
-
-          <div class="card-body pb-0">
-            <h5 class="card-title"> Progress Status <span>| This Year</span></h5>
-            <!-- <div id="budgetChart" style="min-height: 400px;" class="echart"></div> -->
-          </div>
-        </div>
-        <!-- End Budget Report -->
       </div>
       <!-- End Right side columns -->
+
     </div>
   </section>
 

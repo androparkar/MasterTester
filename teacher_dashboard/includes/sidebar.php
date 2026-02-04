@@ -116,13 +116,6 @@
         </a>
       </li><!-- End EXAM Page Nav -->
 
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="../login_form.php">
-          <i class="bi bi-box-arrow-in-right"></i>
-          <span>Login</span>
-        </a>
-      </li><!-- End Login Page Nav -->
-
     </ul>
 
   </aside><!-- End Sidebar-->

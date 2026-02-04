@@ -85,14 +85,8 @@
           <i class="bi bi-clipboard2"></i>
           <span>Class</span>
         </a>
-      </li><!-- End Class Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
-          <i class="bi bi-card-list"></i>
-          <span>Subjects</span>
-        </a>
-      </li><!-- End SUBJECTS Page Nav -->
+      </li><!-- End Class Page Nav --> 
+      <!-- // TODO: add view enrolled/assigned classes  -->
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="./Exams.php">
@@ -100,14 +94,7 @@
           <span>Exams</span>
         </a>
       </li><!-- End EXAM Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="../login_form.php">
-          <i class="bi bi-box-arrow-in-right"></i>
-          <span>Login</span>
-        </a>
-      </li><!-- End Login Page Nav -->
-
+      
     </ul>
 
   </aside><!-- End Sidebar-->
