@@ -12,7 +12,7 @@ if (!isset($_SESSION['id']) || empty($_SESSION['id'])) {
     $_SESSION['stu_id'] = $userId;
 }
 if (!isset($_GET['exam_id']) || empty($_GET['exam_id'])) {
-    exit(header("Location: ../Exams.php"));
+    exit(header("Location: ./Exams.php"));
 } else {
     $examId = $_GET['exam_id'];
     $examDetails = mysqli_fetch_assoc(mysqli_query($conn, "SELECT exams.id, exams.name, subjects.name AS subject_name, classes.name AS class_name, classes.teacher_id AS teacher_id, exams.schedule_date, exams.full_marks FROM exams INNER JOIN subjects ON exams.subject_id = subjects.id INNER JOIN classes ON exams.class_id = classes.id WHERE exams.id = '$examId'"));

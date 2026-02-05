@@ -15,12 +15,12 @@
   <script src="assets/vendor/tinymce/tinymce.min.js"></script>
 
 
-  <!-- Template Main JS File -->
-  <script src="./assets/js/main.js"></script>
 
   <!-- Jquery CDN -->
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
+  <!-- Template Main JS File -->
+  <script src="./assets/js/main.js"></script>
   </body>
 
   </html>

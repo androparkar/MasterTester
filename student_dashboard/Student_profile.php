@@ -32,7 +32,7 @@ $about = $loginUserDetails['about_comment'];
                     <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
                         <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-                        <h2><?= $firstName; ?></h2>
+                        <h2><?= $fullName; ?></h2>
                         <h3>Student</h3>
                     </div>
                 </div>
@@ -316,7 +316,7 @@ include_once('includes/footer.php');
         var formData = new FormData();
         formData.append('profile_image', this.files[0]);
         formData.append('id', <?= $userId ?>);
-        formData.append('name', "<?= $firstName ?>");
+        formData.append('name', "<?= $fullName ?>");
 
         $.ajax({
             url: "./ajaxApis/upload_image.php",
