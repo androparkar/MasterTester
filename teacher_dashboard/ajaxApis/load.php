@@ -91,7 +91,7 @@ if ($_POST['reqType'] == 'QUESTION') {
 if ($_POST['reqType'] == 'RESULT') {
 
     $id = $_POST['id'];
-    $sql = mysqli_query($conn, "SELECT results.id, students.name as student_name, results.result FROM results INNER JOIN exams ON results.exam_id = exams.id INNER JOIN students ON results.student_id = students.id WHERE `exam_id` = $id") or die("cholche na>>> " . mysqli_error($conn));
+    $sql = mysqli_query($conn, "SELECT results.id, students.name as student_name, results.score, results.submitted_at FROM results INNER JOIN exams ON results.exam_id = exams.id INNER JOIN students ON results.student_id = students.id WHERE `exam_id` = $id") or die("cholche na>>> " . mysqli_error($conn));
     $output = [];
     if (mysqli_num_rows($sql) > 0) {
         while ($result = mysqli_fetch_assoc($sql)) {

@@ -47,7 +47,7 @@ if ($_POST['reqType'] == "STUDENT") {
 
 if ($_POST['reqType'] == "EXAM") {
     $id = $_POST['id'];
-    $sql = mysqli_query($conn, "SELECT exams.`id`, exams.`name` FROM `exams` INNER JOIN classes ON exams.class_id = classes.id WHERE classes.`teacher_id` = $id ") or die("cholche na>>> " . mysqli_error($conn));
+    $sql = mysqli_query($conn, "SELECT e.`id`, e.`name` FROM `exams` e INNER JOIN classes c ON e.class_id = c.id WHERE c.`teacher_id` = 1 AND e.is_done = 1;") or die("cholche na>>> " . mysqli_error($conn));
     $output = [];
     if (mysqli_num_rows($sql) > 0) {
         while ($result = mysqli_fetch_assoc($sql)) {
