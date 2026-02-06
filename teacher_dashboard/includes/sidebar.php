@@ -57,7 +57,7 @@
         <a class="nav-link <?= ($currentPage === 'Exam_management.php'|| $currentPage === 'Set_exam_paper.php') ? '' : 'collapsed'; ?>" data-bs-target="#exam-nav" data-bs-toggle="collapse" href="#" aria-expanded="<?= ($currentPage === 'Exam_management.php' || $currentPage === 'Set_exam_paper.php')? 'true' : 'false'; ?>">
           <i class="bi bi-file-earmark-medical"></i></i><span>Exams</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-        <ul id="exam-nav" class="nav-content collapse  <?= ($currentPage === 'buttons.php') ? 'show' : ''; ?> " data-bs-parent="#sidebar-nav">
+        <ul id="exam-nav" class="nav-content collapse  <?= ($currentPage === 'Exam_management.php'|| $currentPage === 'Set_exam_paper.php') ? 'show' : ''; ?> " data-bs-parent="#sidebar-nav">
           <li>
             <a href="./Exam_management.php" class="<?= ($currentPage === 'Exam_management.php') ? 'active' : '';?>">
               <i class="bi bi-circle"></i><span>Manage Exams</span>

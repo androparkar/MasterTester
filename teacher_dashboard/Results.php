@@ -15,7 +15,6 @@ require_once("./includes/sidebar.php");
             </ol>
         </nav>
     </div><!-- End Page Title -->
-<p>This page needs review in its internal code structure. some thiung is faulty</p>
     <section class="section">
         <div class="row">
             <div class="col-lg-12">
